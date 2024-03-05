@@ -16,7 +16,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div className="bg-slate-500/30 backdrop-blur-sm border-black border-2 rounded-sm">
+          {" "}
+          Heloo
+        </div>
+      </body>
     </html>
   );
 }
